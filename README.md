@@ -27,5 +27,8 @@
     - 利用局部样板(Partial)机制，我们可以将重复的样板独立出一个单独的档案，来让其他样板共享引用
     - 局部样板的命名都是下划线开头，比如：_form.html.erb
 - D07：BeforeAction(通过beforeaction，我们可以将Controller中重复的程式独立出来添加公共的之后，删除show、edit、update、destroy方法中的@event = Event.find(params[:id])就行了)（http://127.0.0.1:3000/partial/show ）
+- Flash讯息
+- 分页外挂
+- RESTful风格
 
 By：tyza66
