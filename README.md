@@ -22,5 +22,9 @@
     - 在页面和Controller中使用@变量来传递数据
     - 使用Strong Parameters来验证用户请求参数
 - D06：版型和局部样板(使用版型和局部样板来省去局部代码的重复)
+    - 默认的Layout档案是app/views/layouts/application.html.erb，其中yield就是会被替换成样板的地方
+    - show Action中设定@page_title的值(就是设置页面标题)
+    - 利用局部样板(Partial)机制，我们可以将重复的样板独立出一个单独的档案，来让其他样板共享引用
+    - 局部样板的命名都是下划线开头，比如：_form.html.erb
 
 By：tyza66
