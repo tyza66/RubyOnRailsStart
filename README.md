@@ -13,5 +13,6 @@
 ##### 章节
 - D01：Hello,World!（http://localhost:3000/welcome/say_hello）
 - D02：特有标签\<%=xx%>（http://localhost:3000/welcome/index）
+- D02：设为主页
 
 By：tyza66
