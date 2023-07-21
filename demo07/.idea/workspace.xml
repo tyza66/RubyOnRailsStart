@@ -5,83 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdccfdca-964f-44fc-846d-aa063a24f706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo07/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/.idea/demo06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/assets/config/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/assets/images/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/assets/stylesheets/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/channels/application_cable/channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/channels/application_cable/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/controllers/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/controllers/partial_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/jobs/application_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/mailers/application_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/models/application_record.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/models/concerns/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/views/layouts/application.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/views/layouts/mailer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/views/layouts/mailer.text.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/views/partial/_one.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/views/partial/_two.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/app/views/partial/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/bin/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/bin/rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/cable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/credentials.yml.enc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/initializers/assets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/initializers/content_security_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/initializers/filter_parameter_logging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/initializers/permissions_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/puma.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/config/storage.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/db/seeds.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/lib/assets/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/lib/tasks/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/log/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/storage/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/application_system_test_case.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/channels/application_cable/connection_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/controllers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/fixtures/files/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/helpers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/integration/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/mailers/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/models/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/system/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/tmp/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/tmp/pids/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/tmp/storage/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo07/vendor/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo06/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,9 +53,29 @@
       <recent name="D:\Project\RubyOnRailsStart\demo06\app\views\partial" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.demo06">
+  <component name="RunManager" selected="Rails.demo07">
     <configuration name="demo06" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="demo06" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo07" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="demo07" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -158,6 +102,25 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: demo07" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="demo07" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
@@ -171,6 +134,28 @@
     </configuration>
     <configuration name="test: demo06" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="demo06" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: demo07" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="demo07" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -201,7 +186,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689920629362</updated>
-      <workItem from="1689920630424" duration="2826000" />
+      <workItem from="1689920630424" duration="2806000" />
+      <workItem from="1689923870011" duration="170000" />
     </task>
     <servers />
   </component>
