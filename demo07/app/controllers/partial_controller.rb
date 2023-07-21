@@ -4,9 +4,12 @@ class PartialController < ActionController::Base
   def index
   end
 
+  def show
+  end
+
   private
 
   def set_event
-    @event = Event.find(params[:id])
+    puts("giao")
   end
 end
