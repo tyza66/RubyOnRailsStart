@@ -14,5 +14,6 @@
 - D01：Hello,World!（http://localhost:3000/welcome/say_hello）
 - D02：特殊标签\<%=xx%>（http://localhost:3000/welcome/index）
 - D03：设为主页（http://localhost:3000/）
+- D04：CRUD
 
 By：tyza66
