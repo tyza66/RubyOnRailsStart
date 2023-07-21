@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<p>Hola! It's <%= Time.now %></p><!--在页面中内嵌代码-->
+<p><%= link_to 'Hello!', welcome_say_hello_path %></p><!--使用这种形式实现页面跳转-->
+<p><%= link_to "Home", root_path %></p>
+</body>
+</html>
