@@ -11,9 +11,10 @@
 - 我是用的IDE是RubyMine，这个IDE对Ruby on Rails的支持很好，但是需要收费，不过可以免费试用30天，可以先试用一下，如果觉得不错，可以购买正版
 
 ##### 章节
-- D01：Hello,World!（http://localhost:3000/welcome/say_hello）
-- D02：特殊标签\<%=xx%>（http://localhost:3000/welcome/index）
-- D03：设为主页（http://localhost:3000/）
+- D01：Hello,World!(创建项目，调试运行)（http://localhost:3000/welcome/say_hello）
+- D02：特殊标签\<%=xx%>(使用这个标签在页面中插入代码)（http://localhost:3000/welcome/index）
+- D03：设为主页(在路由中设置应用的默认首页)（http://localhost:3000/）
 - D04：快速生成CRUD(创建数据库 rake db:migrate、使用鹰架 rails g scaffold person name:string bio:text birthday:date)（http://localhost:3000/people）
+- D05：Rails中的MVC、手工打造 CRUD
 
 By：tyza66
