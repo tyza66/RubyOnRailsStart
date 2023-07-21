@@ -1,0 +1,17 @@
+<!DOCTYPE html><!--https://github.com/tyza66/RubyOnRailsStart-->
+<!--可以在模板页面中修稿公共的信息换个标签-->
+<html>
+  <head>
+    <title>Demo01</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
