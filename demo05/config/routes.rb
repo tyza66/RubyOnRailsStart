@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "welcome/say_hello" => "welcome#say"
   get "welcome/index" => "welcome#index"
   root :to => "welcome#index"
+  match ':controller(/:action(/:id(.:format)))', :via => :all  #这里定义了外卡路由，可以将我们的两层的和带参数的请求映射到请求地址上
 end

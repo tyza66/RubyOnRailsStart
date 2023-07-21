@@ -15,6 +15,11 @@
 - D02：特殊标签\<%=xx%>(使用这个标签在页面中插入代码)（http://localhost:3000/welcome/index）
 - D03：设为主页(在路由中设置应用的默认首页)（http://localhost:3000/）
 - D04：快速生成CRUD(创建数据库 rake db:migrate、使用鹰架 rails g scaffold person name:string bio:text birthday:date)（http://localhost:3000/people）
-- D05：Rails中的MVC、手工打造 CRUD(rails g model event name:string description:text is_public:boolean capacity:integer、bin/rake db:migrate)
+- D05：Rails中的MVC、手工打造 CRUD(rails g model event name:string description:text is_public:boolean capacity:integer、bin/rake db:migrate)（http://localhost:3000/events/index）
+    - 先创建实体类，使用ActiveRecord操作数据库
+    - 使用ActiveRecord实现插入资料验证
+    - 创建Controller、View、Route
+    - 在页面和Controller中使用@变量来传递数据
+    - 使用Strong Parameters来验证用户请求参数
 
 By：tyza66
