@@ -8,7 +8,7 @@
 - 在Window上环境安装起来很费劲，而且国内创建项目的时候网络很慢，坚持就是胜利
 - 章节中的D表示Demo，后面的数字表示章节，比如D01表示第一章的Demo01
 - 后面括号中的地址是对应章节对应的入口网页
-- 我是用的IDE是RubyMine，这个IDE对Ruby on Rails的支持很好，但是需要收费，不过可以免费试用30天，可以先试用一下，如果觉得不错，可以购买正版
+- 我使用的IDE是RubyMine
 
 ##### 章节
 - D01：Hello,World!(创建项目，调试运行)（http://localhost:3000/welcome/say_hello）
@@ -21,5 +21,5 @@
     - 创建Controller、View、Route
     - 在页面和Controller中使用@变量来传递数据
     - 使用Strong Parameters来验证用户请求参数
-
+- D06：版型和局部样板(使用版型和局部样板来省去局部代码的重复)
 By：tyza66
