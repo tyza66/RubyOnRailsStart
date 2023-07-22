@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  get 'get1/action1' => 'get1#action1'
   match ':controller(/:action(/:id(.:format)))', :via => :all
 end

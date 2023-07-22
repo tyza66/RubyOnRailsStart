@@ -9,6 +9,7 @@
 - 章节中的D表示Demo，后面的数字表示章节，比如D01表示第一章的Demo01
 - 后面括号中的地址是对应章节对应的入口网页
 - 我使用的IDE是RubyMine
+- 有的项目因不明原因不被RubyMine读取，可以手动使用命令行运行（rails server）
 
 ##### 章节
 - D01：Hello,World!(创建项目，调试运行)（http://localhost:3000/welcome/say_hello ）
@@ -29,7 +30,7 @@
 - D07：BeforeAction(通过beforeaction，我们可以将Controller中重复的程式独立出来添加公共的之后，删除show、edit、update、destroy方法中的@event = Event.find(params[:id])就行了)（http://127.0.0.1:3000/partial/show ）
 - D08：Flash讯息(在页面中插入值为flash[:notice]的标签就行了，之后在action中设置这个值，不用加@)（http://127.0.0.1:3000/partial/show ）
 - D09：分页外挂(使用kaminari分页套件，Gemfile加入gem "kaminari"，之后安装使用)（http://127.0.0.1:3000/partial/show ）
-- D10：RESTful风格
+- D10：RESTful风格、将CRUD改成restful风格（http://localhost:3000/events ）
     - 将RESTful带入Rails路由系统的点子，出自它对应了HTTP动词POST、GET、PATCH/PUT、DELETE到资料的新增、读取、更新、删除等四项操作
     - RESTful路由设计是Rails的一项独到的发明，它使用了REST的概念来建立一整组的命名路由(named routes)
     - 在路由中用resources直接声明一系列reesful路由
@@ -47,6 +48,13 @@
     - 修改页面的时候，注意到删除的地方，我们多一个参数:method => :delete
     - 在show页面中，你也可以完全省略:url参数，Rails可以根据@event推算出路由
     - 在edit页面中，:url和:method也可以省略，Rails自动会根据@event是新建的还是修改来决定要不要使用PATCH。
-- D11：作为API提供者而不跳转页面
+- D11：使用respond_to、作为API提供者而不跳转页面（http://127.0.0.1:3000/get1/action1 ）
+    - 在Controller中加入respond_to do |format|，之后在format中加入对应的格式
+    - 在View中加入对应的格式的文件
+    - 在路由中加入对应的格式
+    - 在Controller中加入respond_to do |format|，之后在format中加入对应的格式
+    - 在View中加入对应的格式的文件
+    - 在路由中加入对应的格式
+    - 或者直接rander json: xxx
 
 By：tyza66
