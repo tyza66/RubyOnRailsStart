@@ -30,6 +30,20 @@
 - D08：Flash讯息(在页面中插入值为flash[:notice]的标签就行了，之后在action中设置这个值，不用加@)（http://127.0.0.1:3000/partial/show ）
 - D09：分页外挂(使用kaminari分页套件，Gemfile加入gem "kaminari"，之后安装使用)（http://127.0.0.1:3000/partial/show ）
 - D10：RESTful风格
+    - 将RESTful带入Rails路由系统的点子，出自它对应了HTTP动词POST、GET、PATCH/PUT、DELETE到资料的新增、读取、更新、删除等四项操作
+    - RESTful路由设计是Rails的一项独到的发明，它使用了REST的概念来建立一整组的命名路由(named routes)
+    - 在路由中用resources直接声明一系列reesful路由
+        ```
+        路由中加入resources :events相当于加入了以下路由
+        get    '/events'          => "events#index",   :as => "events"
+        post   '/events'          => "events#create",  :as => "events"
+        get    '/events/:id'      => "events#show",    :as => "event"
+        patch  '/events/:id'      => "events#update",  :as => "event"
+        put    '/events/:id'      => "events#update",  :as => "event"
+        delete '/events/:id'      => "events#destroy", :as => "event"
+        get    '/events/new'      => "events#new",     :as => "new_event"
+        get    '/events/:id/edit' => "events#edit",    :as => "edit_event"
+        ```
 - D11：作为API提供者而不跳转页面
 
 By：tyza66
