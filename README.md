@@ -48,7 +48,7 @@
     - 修改页面的时候，注意到删除的地方，我们多一个参数:method => :delete
     - 在show页面中，你也可以完全省略:url参数，Rails可以根据@event推算出路由
     - 在edit页面中，:url和:method也可以省略，Rails自动会根据@event是新建的还是修改来决定要不要使用PATCH。
-- D11：使用respond_to、作为API提供者（可对接ajax）而不跳转页面（http://127.0.0.1:3000/get1/action1 ）
+- D11：使用respond_to、作为API提供者（可对接ajax）而不跳转页面（http://127.0.0.1:3000/get1/action1 、http://127.0.0.1:3000/get1/action2.json 、http://127.0.0.1:3000/get1/action2 ）
     - 在Controller中加入respond_to do |format|，之后在format中加入对应的格式
     - 在View中加入对应的格式的文件
     - 在路由中加入对应的格式
