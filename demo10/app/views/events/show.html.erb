@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<%= @event.name %>
+<%= simple_format(@event.description) %>
+<p><%= link_to 'Back to index', :controller => 'events', :action => 'index' %></p>
+</body>
+</html>
