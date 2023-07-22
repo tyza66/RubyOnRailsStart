@@ -13,7 +13,7 @@ class EventsController < ApplicationController
     # 保存Event对象到数据库中
     @event.save
     # 将用户页面重定向到index页面
-    redirect_to :action => :index
+    redirect_to events_url
   end
 
   def show
@@ -28,13 +28,13 @@ class EventsController < ApplicationController
   def update
     @event = Event.find(params[:id])
     @event.update(event_params)
-    redirect_to :action => :show, :id => @event
+    redirect_to event_url(@event)
   end
 
   def destroy
     @event = Event.find(params[:id])
     @event.destroy
-    redirect_to :action => :index
+    redirect_to events_url
   end
 
   private #以下所有的方法都编程private方法

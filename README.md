@@ -44,6 +44,9 @@
         get    '/events/new'      => "events#new",     :as => "new_event"
         get    '/events/:id/edit' => "events#edit",    :as => "edit_event"
         ```
+    - 修改页面的时候，注意到删除的地方，我们多一个参数:method => :delete
+    - 在show页面中，你也可以完全省略:url参数，Rails可以根据@event推算出路由
+    - 在edit页面中，:url和:method也可以省略，Rails自动会根据@event是新建的还是修改来决定要不要使用PATCH。
 - D11：作为API提供者而不跳转页面
 
 By：tyza66

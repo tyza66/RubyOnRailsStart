@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-<%= form_for @event, :url => { :controller => 'events', :action => 'create' } do |f| %>
+<%= form_for @event, :url => events_path do |f| %>
   <%= f.label :name, "Name" %>
   <%= f.text_field :name %>
   <%= f.label :description, "Description" %>
